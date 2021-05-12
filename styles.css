@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@0;1&display=swap");
+
+:root {
+  --primary-color: #78350f;
+  --secondary-color: #d97706;
+  --bg-color: #f9fafb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Philosopher", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: var(--primary-color);
+  font-size: larger;
+  color: var(--bg-color);
+}
+.main-content {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+#input-txt {
+  display: block;
+  margin: 4rem 0rem;
+  width: 98%;
+  min-height: 20vh;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 1.2rem;
+  background-color: var(--bg-color);
+}
+
+#btn-translate {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+#output-txt {
+  border: 1px solid black;
+  display: block;
+  margin: 3rem auto;
+
+  width: 98%;
+  min-height: 20vh;
+  border-radius: 10px;
+  padding: 2rem;
+  overflow: auto;
+  background-color: var(--bg-color);
+}
+.translation-heading {
+  margin-top: 2rem;
+  font-size: large;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  font-size: larger;
+}
+
+.footer-heading {
+  margin-bottom: 1rem;
+}
