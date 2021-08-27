@@ -14,10 +14,8 @@
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20vh;
+  text-align: center;
+  padding: 2rem;
   background-color: var(--primary-color);
   font-size: larger;
   color: var(--bg-color);
